@@ -2,7 +2,7 @@
  * @file         ShaderReferenceProperties.cs
  * @author       Hongwei Li(taecg@qq.com)
  * @created      2018-11-17
- * @updated      2018-11-17
+ * @updated      2018-12-12
  *
  * @brief        绘制相关
  */
