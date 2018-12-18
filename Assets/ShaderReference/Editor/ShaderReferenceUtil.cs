@@ -2,7 +2,7 @@
  * @file         ShaderReferenceProperties.cs
  * @author       Hongwei Li(taecg@qq.com)
  * @created      2018-11-17
- * @updated      2018-12-12
+ * @updated      2018-12-18
  *
  * @brief        绘制相关
  */
@@ -33,10 +33,11 @@ namespace taecg.tools.shaderReference
             //说明样式
             GUIStyle style02 = new GUIStyle("label");
             style02.wordWrap = true;
+            style02.richText = true;
 
             EditorGUILayout.BeginVertical(new GUIStyle("Box"));
-            EditorGUILayout.SelectableLabel(str, style01);
-            EditorGUILayout.LabelField(message, style02);
+            EditorGUILayout.TextArea(str, style01);
+            EditorGUILayout.TextArea(message, style02);
             EditorGUILayout.EndVertical();
         }
 

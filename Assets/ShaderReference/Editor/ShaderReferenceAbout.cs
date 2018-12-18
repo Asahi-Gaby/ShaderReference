@@ -50,10 +50,10 @@ namespace taecg.tools.shaderReference
             style.alignment = TextAnchor.MiddleCenter;
 
             GUILayout.Box(wechat, style);
-            EditorGUILayout.LabelField("Unity技术美术公众号 :  gh_8b69cca044dc", labelStyle);
+            EditorGUILayout.TextArea("Unity技术美术公众号 :  gh_8b69cca044dc", labelStyle);
 
             GUILayout.Box(qq, style);
-            EditorGUILayout.LabelField("Unity技术美术QQ交流群 :  19470667", labelStyle);
+            EditorGUILayout.TextArea("Unity技术美术QQ交流群 :  19470667", labelStyle);
 
             EditorGUILayout.EndScrollView();
         }
